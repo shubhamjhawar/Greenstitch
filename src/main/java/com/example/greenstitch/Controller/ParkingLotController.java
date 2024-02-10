@@ -29,7 +29,7 @@ public class ParkingLotController {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Enter command: ");
+            System.out.print("$: ");
             String input = scanner.nextLine();
             String[] commandParts = input.split("\\s+");
 
