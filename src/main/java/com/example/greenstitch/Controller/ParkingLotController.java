@@ -49,11 +49,12 @@ public class ParkingLotController {
                         System.out.println(parkMessage);
                         break;
 
-                    case "leave":
-                        int slotNumber = Integer.parseInt(commandParts[1]);
-                        String leaveMessage = plsvc.leaveVehicle(slotNumber);
-                        System.out.println(leaveMessage);
-                        break;
+//                    case "leave":
+//
+//                        int slotNumber = Integer.parseInt(commandParts[1]);
+//                        String leaveMessage = plsvc.leaveVehicle(slotNumber);
+//                        System.out.println(leaveMessage);
+//                        break;
 
                     case "status":
                         Map<Integer, Car> statusMap = plsvc.getStatus();
